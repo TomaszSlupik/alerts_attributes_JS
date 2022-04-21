@@ -1,0 +1,74 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: gray;
+}
+
+.nav {
+	height: 50px;
+	background-color: black;
+	text-align: center;
+	line-height: 50px;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+ul {
+	color: white;
+}
+button {
+	height: 30px;
+	width: 100px;
+	margin: 10px;
+}
+.dog,
+.cat,
+.dogYes,
+.dogNo {
+	background-image: url("../IMG/dog.jpg");
+	width: 350px;
+	height: 300px;
+	background-size: cover;
+	background-position: center bottom;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px;
+	overflow: hidden;
+}
+.dogNo {
+	background-image: url(../IMG/labrador-retriever-1210559_1920.jpg);
+	margin-left: 230px;
+}
+
+.dogYes {
+	background-image: url("../IMG/siberian-husky-1291343_1920.jpg");
+}
+
+.cat {
+	background-image: url(../IMG/cat.jpg);
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+}
+
+.like {
+	margin: 10px;
+	font-size: 30px;
+	padding: 30px 20px;
+}
+
+.waitTwo {
+	padding: 20px 20px;
+}
+
+.grandparents {
+	padding: 20px 20px;
+	font-size: 30px;
+}
